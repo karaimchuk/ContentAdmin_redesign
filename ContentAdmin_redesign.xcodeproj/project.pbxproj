@@ -9,21 +9,65 @@
 /* Begin PBXBuildFile section */
 		3B9284772531B57100EAFBC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284762531B57100EAFBC7 /* AppDelegate.swift */; };
 		3B9284792531B57100EAFBC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284782531B57100EAFBC7 /* SceneDelegate.swift */; };
-		3B92847B2531B57100EAFBC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92847A2531B57100EAFBC7 /* ViewController.swift */; };
+		3B92847B2531B57100EAFBC7 /* EducationLessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92847A2531B57100EAFBC7 /* EducationLessonsViewController.swift */; };
 		3B92847E2531B57100EAFBC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B92847C2531B57100EAFBC7 /* Main.storyboard */; };
 		3B9284802531B57400EAFBC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B92847F2531B57400EAFBC7 /* Assets.xcassets */; };
 		3B9284832531B57400EAFBC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9284812531B57400EAFBC7 /* LaunchScreen.storyboard */; };
+		3B92848B2531B78700EAFBC7 /* EducationLessonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92848A2531B78700EAFBC7 /* EducationLessonsViewModel.swift */; };
+		3B9284902531BDA700EAFBC7 /* UIColor+System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92848F2531BDA700EAFBC7 /* UIColor+System.swift */; };
+		3B9284942531BF8E00EAFBC7 /* EducationLessonsStagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284922531BF8E00EAFBC7 /* EducationLessonsStagesCell.swift */; };
+		3B9284952531BF8E00EAFBC7 /* EducationLessonsStagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9284932531BF8E00EAFBC7 /* EducationLessonsStagesCell.xib */; };
+		3B9284982531C0A900EAFBC7 /* EducationLessonsStagesCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284972531C0A900EAFBC7 /* EducationLessonsStagesCellModel.swift */; };
+		3B92849B2531C0E400EAFBC7 /* EducationLessonsTextCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92849A2531C0E400EAFBC7 /* EducationLessonsTextCellModel.swift */; };
+		3B92849E2531C10B00EAFBC7 /* EducationLessonsTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92849C2531C10B00EAFBC7 /* EducationLessonsTextCell.swift */; };
+		3B92849F2531C10B00EAFBC7 /* EducationLessonsTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B92849D2531C10B00EAFBC7 /* EducationLessonsTextCell.xib */; };
+		3B9284A22531C1DD00EAFBC7 /* EducationLessonsTitleCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284A12531C1DD00EAFBC7 /* EducationLessonsTitleCellModel.swift */; };
+		3B9284A52531C20000EAFBC7 /* EducationLessonsTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284A32531C20000EAFBC7 /* EducationLessonsTitleCell.swift */; };
+		3B9284A62531C20000EAFBC7 /* EducationLessonsTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9284A42531C20000EAFBC7 /* EducationLessonsTitleCell.xib */; };
+		3B9284AA2531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284A82531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.swift */; };
+		3B9284AB2531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9284A92531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.xib */; };
+		3B9284AD2531C2E800EAFBC7 /* EducationLessonsCategoriesCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284AC2531C2E800EAFBC7 /* EducationLessonsCategoriesCellModel.swift */; };
+		3B9284B025324D3F00EAFBC7 /* EducationLessonsPaidCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284AF25324D3F00EAFBC7 /* EducationLessonsPaidCellModel.swift */; };
+		3B9284B325324D6E00EAFBC7 /* EducationLessonsPaidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284B125324D6E00EAFBC7 /* EducationLessonsPaidCell.swift */; };
+		3B9284B425324D6E00EAFBC7 /* EducationLessonsPaidCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9284B225324D6E00EAFBC7 /* EducationLessonsPaidCell.xib */; };
+		3B9284B725324E5400EAFBC7 /* EducationLessonsAddPhotoCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284B625324E5400EAFBC7 /* EducationLessonsAddPhotoCellModel.swift */; };
+		3B9284BA25324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284B825324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.swift */; };
+		3B9284BB25324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9284B925324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.xib */; };
+		3B9284BF25324FD600EAFBC7 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9284BD25324FD600EAFBC7 /* PhotoCollectionViewCell.swift */; };
+		3B9284C025324FD600EAFBC7 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9284BE25324FD600EAFBC7 /* PhotoCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B9284732531B57100EAFBC7 /* ContentAdmin_redesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentAdmin_redesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9284762531B57100EAFBC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B9284782531B57100EAFBC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B92847A2531B57100EAFBC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B92847A2531B57100EAFBC7 /* EducationLessonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsViewController.swift; sourceTree = "<group>"; };
 		3B92847D2531B57100EAFBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B92847F2531B57400EAFBC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B9284822531B57400EAFBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B9284842531B57400EAFBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B92848A2531B78700EAFBC7 /* EducationLessonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsViewModel.swift; sourceTree = "<group>"; };
+		3B92848F2531BDA700EAFBC7 /* UIColor+System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+System.swift"; sourceTree = "<group>"; };
+		3B9284922531BF8E00EAFBC7 /* EducationLessonsStagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsStagesCell.swift; sourceTree = "<group>"; };
+		3B9284932531BF8E00EAFBC7 /* EducationLessonsStagesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationLessonsStagesCell.xib; sourceTree = "<group>"; };
+		3B9284972531C0A900EAFBC7 /* EducationLessonsStagesCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsStagesCellModel.swift; sourceTree = "<group>"; };
+		3B92849A2531C0E400EAFBC7 /* EducationLessonsTextCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsTextCellModel.swift; sourceTree = "<group>"; };
+		3B92849C2531C10B00EAFBC7 /* EducationLessonsTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsTextCell.swift; sourceTree = "<group>"; };
+		3B92849D2531C10B00EAFBC7 /* EducationLessonsTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationLessonsTextCell.xib; sourceTree = "<group>"; };
+		3B9284A12531C1DD00EAFBC7 /* EducationLessonsTitleCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsTitleCellModel.swift; sourceTree = "<group>"; };
+		3B9284A32531C20000EAFBC7 /* EducationLessonsTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsTitleCell.swift; sourceTree = "<group>"; };
+		3B9284A42531C20000EAFBC7 /* EducationLessonsTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationLessonsTitleCell.xib; sourceTree = "<group>"; };
+		3B9284A82531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsCategoriesCell.swift; sourceTree = "<group>"; };
+		3B9284A92531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationLessonsCategoriesCell.xib; sourceTree = "<group>"; };
+		3B9284AC2531C2E800EAFBC7 /* EducationLessonsCategoriesCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsCategoriesCellModel.swift; sourceTree = "<group>"; };
+		3B9284AF25324D3F00EAFBC7 /* EducationLessonsPaidCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsPaidCellModel.swift; sourceTree = "<group>"; };
+		3B9284B125324D6E00EAFBC7 /* EducationLessonsPaidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsPaidCell.swift; sourceTree = "<group>"; };
+		3B9284B225324D6E00EAFBC7 /* EducationLessonsPaidCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationLessonsPaidCell.xib; sourceTree = "<group>"; };
+		3B9284B625324E5400EAFBC7 /* EducationLessonsAddPhotoCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsAddPhotoCellModel.swift; sourceTree = "<group>"; };
+		3B9284B825324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationLessonsAddPhotoCell.swift; sourceTree = "<group>"; };
+		3B9284B925324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationLessonsAddPhotoCell.xib; sourceTree = "<group>"; };
+		3B9284BD25324FD600EAFBC7 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B9284BE25324FD600EAFBC7 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +100,125 @@
 		3B9284752531B57100EAFBC7 /* ContentAdmin_redesign */ = {
 			isa = PBXGroup;
 			children = (
+				3B9284912531BF4400EAFBC7 /* Cells */,
+				3B92848E2531BD8500EAFBC7 /* Extensions */,
+				3B92848D2531BD3500EAFBC7 /* Storyboards */,
+				3B92848C2531BCFF00EAFBC7 /* EducationLessonsViewController */,
 				3B9284762531B57100EAFBC7 /* AppDelegate.swift */,
 				3B9284782531B57100EAFBC7 /* SceneDelegate.swift */,
-				3B92847A2531B57100EAFBC7 /* ViewController.swift */,
-				3B92847C2531B57100EAFBC7 /* Main.storyboard */,
 				3B92847F2531B57400EAFBC7 /* Assets.xcassets */,
 				3B9284812531B57400EAFBC7 /* LaunchScreen.storyboard */,
 				3B9284842531B57400EAFBC7 /* Info.plist */,
 			);
 			path = ContentAdmin_redesign;
+			sourceTree = "<group>";
+		};
+		3B92848C2531BCFF00EAFBC7 /* EducationLessonsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B92848A2531B78700EAFBC7 /* EducationLessonsViewModel.swift */,
+				3B92847A2531B57100EAFBC7 /* EducationLessonsViewController.swift */,
+			);
+			path = EducationLessonsViewController;
+			sourceTree = "<group>";
+		};
+		3B92848D2531BD3500EAFBC7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3B92847C2531B57100EAFBC7 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3B92848E2531BD8500EAFBC7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B92848F2531BDA700EAFBC7 /* UIColor+System.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3B9284912531BF4400EAFBC7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3B9284B525324E3A00EAFBC7 /* EducationLessonsAddPhotoCell */,
+				3B9284AE25324D2900EAFBC7 /* EducationLessonsPaidCell */,
+				3B9284A72531C29C00EAFBC7 /* EducationLessonsCategoriesCell */,
+				3B9284A02531C1C600EAFBC7 /* EducationLessonsTitleCell */,
+				3B9284992531C0C700EAFBC7 /* EducationLessonsTextCell */,
+				3B9284962531C05F00EAFBC7 /* EducationLessonsStagesCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3B9284962531C05F00EAFBC7 /* EducationLessonsStagesCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B9284922531BF8E00EAFBC7 /* EducationLessonsStagesCell.swift */,
+				3B9284932531BF8E00EAFBC7 /* EducationLessonsStagesCell.xib */,
+				3B9284972531C0A900EAFBC7 /* EducationLessonsStagesCellModel.swift */,
+			);
+			path = EducationLessonsStagesCell;
+			sourceTree = "<group>";
+		};
+		3B9284992531C0C700EAFBC7 /* EducationLessonsTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B92849A2531C0E400EAFBC7 /* EducationLessonsTextCellModel.swift */,
+				3B92849C2531C10B00EAFBC7 /* EducationLessonsTextCell.swift */,
+				3B92849D2531C10B00EAFBC7 /* EducationLessonsTextCell.xib */,
+			);
+			path = EducationLessonsTextCell;
+			sourceTree = "<group>";
+		};
+		3B9284A02531C1C600EAFBC7 /* EducationLessonsTitleCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B9284A12531C1DD00EAFBC7 /* EducationLessonsTitleCellModel.swift */,
+				3B9284A32531C20000EAFBC7 /* EducationLessonsTitleCell.swift */,
+				3B9284A42531C20000EAFBC7 /* EducationLessonsTitleCell.xib */,
+			);
+			path = EducationLessonsTitleCell;
+			sourceTree = "<group>";
+		};
+		3B9284A72531C29C00EAFBC7 /* EducationLessonsCategoriesCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B9284A82531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.swift */,
+				3B9284A92531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.xib */,
+				3B9284AC2531C2E800EAFBC7 /* EducationLessonsCategoriesCellModel.swift */,
+			);
+			path = EducationLessonsCategoriesCell;
+			sourceTree = "<group>";
+		};
+		3B9284AE25324D2900EAFBC7 /* EducationLessonsPaidCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B9284AF25324D3F00EAFBC7 /* EducationLessonsPaidCellModel.swift */,
+				3B9284B125324D6E00EAFBC7 /* EducationLessonsPaidCell.swift */,
+				3B9284B225324D6E00EAFBC7 /* EducationLessonsPaidCell.xib */,
+			);
+			path = EducationLessonsPaidCell;
+			sourceTree = "<group>";
+		};
+		3B9284B525324E3A00EAFBC7 /* EducationLessonsAddPhotoCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B9284BC25324F9200EAFBC7 /* PhotoCollectionViewCell */,
+				3B9284B625324E5400EAFBC7 /* EducationLessonsAddPhotoCellModel.swift */,
+				3B9284B825324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.swift */,
+				3B9284B925324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.xib */,
+			);
+			path = EducationLessonsAddPhotoCell;
+			sourceTree = "<group>";
+		};
+		3B9284BC25324F9200EAFBC7 /* PhotoCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B9284BD25324FD600EAFBC7 /* PhotoCollectionViewCell.swift */,
+				3B9284BE25324FD600EAFBC7 /* PhotoCollectionViewCell.xib */,
+			);
+			path = PhotoCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +280,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B9284832531B57400EAFBC7 /* LaunchScreen.storyboard in Resources */,
+				3B9284C025324FD600EAFBC7 /* PhotoCollectionViewCell.xib in Resources */,
+				3B9284952531BF8E00EAFBC7 /* EducationLessonsStagesCell.xib in Resources */,
 				3B9284802531B57400EAFBC7 /* Assets.xcassets in Resources */,
+				3B9284A62531C20000EAFBC7 /* EducationLessonsTitleCell.xib in Resources */,
 				3B92847E2531B57100EAFBC7 /* Main.storyboard in Resources */,
+				3B9284AB2531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.xib in Resources */,
+				3B9284B425324D6E00EAFBC7 /* EducationLessonsPaidCell.xib in Resources */,
+				3B9284BB25324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.xib in Resources */,
+				3B92849F2531C10B00EAFBC7 /* EducationLessonsTextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +299,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B92847B2531B57100EAFBC7 /* ViewController.swift in Sources */,
+				3B9284902531BDA700EAFBC7 /* UIColor+System.swift in Sources */,
+				3B92847B2531B57100EAFBC7 /* EducationLessonsViewController.swift in Sources */,
+				3B92848B2531B78700EAFBC7 /* EducationLessonsViewModel.swift in Sources */,
+				3B9284A52531C20000EAFBC7 /* EducationLessonsTitleCell.swift in Sources */,
+				3B9284AA2531C2CB00EAFBC7 /* EducationLessonsCategoriesCell.swift in Sources */,
+				3B9284BF25324FD600EAFBC7 /* PhotoCollectionViewCell.swift in Sources */,
+				3B9284A22531C1DD00EAFBC7 /* EducationLessonsTitleCellModel.swift in Sources */,
+				3B9284982531C0A900EAFBC7 /* EducationLessonsStagesCellModel.swift in Sources */,
+				3B9284BA25324E6E00EAFBC7 /* EducationLessonsAddPhotoCell.swift in Sources */,
 				3B9284772531B57100EAFBC7 /* AppDelegate.swift in Sources */,
+				3B9284AD2531C2E800EAFBC7 /* EducationLessonsCategoriesCellModel.swift in Sources */,
+				3B9284B725324E5400EAFBC7 /* EducationLessonsAddPhotoCellModel.swift in Sources */,
+				3B9284B025324D3F00EAFBC7 /* EducationLessonsPaidCellModel.swift in Sources */,
+				3B9284942531BF8E00EAFBC7 /* EducationLessonsStagesCell.swift in Sources */,
+				3B92849E2531C10B00EAFBC7 /* EducationLessonsTextCell.swift in Sources */,
 				3B9284792531B57100EAFBC7 /* SceneDelegate.swift in Sources */,
+				3B9284B325324D6E00EAFBC7 /* EducationLessonsPaidCell.swift in Sources */,
+				3B92849B2531C0E400EAFBC7 /* EducationLessonsTextCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
